@@ -45,12 +45,17 @@ I’m a self-driven learner, passionate about front-end development. Even though
 
 ## Client Panel
 ![Client Panel View](assets/Client-view.png)
+
 ![Client Panel Order View](assets/client-view-order.png)
+
 ![Client Panel Order View](assets/client-order.png)
+
 ![Client Panel Validation View](assets/client-validation.png)
 
 ## Admin Panel
 
 ![Admin Panel View](assets/admin-panel.png)
+
 ![Client Panel Order View](assets/admin-panel-orders.png)
+
 ![Client Panel Order View](assets/admin-add-excursion.png)
