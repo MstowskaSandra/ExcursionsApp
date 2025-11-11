@@ -44,7 +44,6 @@ I’m a self-driven learner, passionate about front-end development. Even though
 
 
 ## Client Panel
-![Client Panel View](assets/Client-view.png)
 
 ![Client Panel Order View](assets/client-view-order.png)
 
