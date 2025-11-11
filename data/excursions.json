@@ -184,6 +184,39 @@
       "totalPrice": 25100,
       "orderDate": "2025-11-11T15:14:47.213Z",
       "id": 5
+    },
+    {
+      "name": "Sandra Mstowska",
+      "email": "sandramstowska@gmail.com",
+      "basket": [
+        {
+          "id": 0,
+          "excursion": {
+            "name": "Kyoto - Fushimi Inari Shrine",
+            "description": "Explore the iconic red torii gates leading up Mount Inari and discover ancient Japanese spirituality.",
+            "priceAdult": 5800,
+            "priceChild": 5640,
+            "id": "ae03"
+          },
+          "adults": 2,
+          "childs": 2
+        },
+        {
+          "id": 1,
+          "excursion": {
+            "name": "Cairo - Great Pyramids of Giza",
+            "description": "Visit one of the Seven Wonders of the Ancient World and step into the legacy of ancient Egypt.",
+            "priceAdult": 1200,
+            "priceChild": 1000,
+            "id": "9e16"
+          },
+          "adults": 2,
+          "childs": 0
+        }
+      ],
+      "totalPrice": 25280,
+      "orderDate": "2025-11-11T16:18:56.392Z",
+      "id": 6
     }
   ]
 }

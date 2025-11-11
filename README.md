@@ -41,3 +41,16 @@ Junior frontend developer with a passion for playful user interfaces and product
 
 ## Why you should consider me
 I’m a self-driven learner, passionate about front-end development. Even though I’m new to commercial work, this project shows I’ve got the skills and mindset to create great websites. I’m ready to grow and take on challenges as a junior front-end developer.
+
+
+## Client Panel
+![Client Panel View](assets/Client-view.png)
+![Client Panel Order View](assets/client-view-order.png)
+![Client Panel Order View](assets/client-order.png)
+![Client Panel Validation View](assets/client-validation.png)
+
+## Admin Panel
+
+![Admin Panel View](assets/admin-panel.png)
+![Client Panel Order View](assets/admin-panel-orders.png)
+![Client Panel Order View](assets/admin-add-excursion.png)
