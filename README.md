@@ -16,7 +16,7 @@ The admin panel enables management of excursions by adding, editing, and deletin
 ## 🛠️Tech Stack 
 - JavaScript (ES6 modules, Fetch API)  
 - CSS for styling and responsive design  
-- JSON server (or similar) to mock the backend API using `excursions.json`  
+- JSON server to mock the backend API using `excursions.json`  
 - HTML5 semantic elements  
 
 ## ✨  What I Learned
@@ -26,6 +26,15 @@ The admin panel enables management of excursions by adding, editing, and deletin
 - Structuring a frontend project with modular JavaScript for better maintainability and scalability.
 - Understanding the basics of creating and interacting with a mock RESTful API using JSON Server.
 - Enhancing problem-solving skills by debugging and refining both client and admin functionalities.
+
+### Installation and Running the App  
+- git clone https://github.com/MstowskaSandra/ExcursionsApp.git
+- cd ExcursionsApp
+- npm start
+- json-server --watch ./data/excursions.json
+- Open in browser:
+Client: http://localhost:8080/index.html
+Admin: http://localhost:8080/admin.html
 
 ## About Me
 Junior frontend developer with a passion for playful user interfaces and productivity tools. I enjoy creating vibrant, accessible apps and learning best practices for API integration.
