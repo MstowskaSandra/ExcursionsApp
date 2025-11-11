@@ -1,0 +1,189 @@
+{
+  "excursions": [
+    {
+      "name": "Kyoto - Fushimi Inari Shrine",
+      "description": "Explore the iconic red torii gates leading up Mount Inari and discover ancient Japanese spirituality.",
+      "priceAdult": 5800,
+      "priceChild": 5640,
+      "id": "ae03"
+    },
+    {
+      "name": "Cairo - Great Pyramids of Giza",
+      "description": "Visit one of the Seven Wonders of the Ancient World and step into the legacy of ancient Egypt.",
+      "priceAdult": 1200,
+      "priceChild": 1000,
+      "id": "9e16"
+    },
+    {
+      "id": "01d3",
+      "name": "Venice - Canal Boat Ride",
+      "description": "Enjoy a scenic gondola ride along the charming canals of Venice, surrounded by Renaissance beauty.",
+      "priceAdult": 1800,
+      "priceChild": 1400
+    },
+    {
+      "id": "fc29",
+      "name": "New York - Central Park Tour",
+      "description": "Relax on a guided walk through the city’s green heart and learn about its cultural landmarks.",
+      "priceAdult": 3400,
+      "priceChild": 3300
+    },
+    {
+      "name": "Rio de Janeiro - Christ the Redeemer",
+      "description": "Admire the breathtaking panoramic view of Rio from the world-famous statue atop Corcovado.",
+      "priceAdult": 10000,
+      "priceChild": 10000,
+      "id": "3c1b"
+    },
+    {
+      "name": "Reykjavik - Northern Lights Experience",
+      "description": "Witness nature’s spectacular light show in Iceland’s crystal-clear night sky.",
+      "priceAdult": 5550,
+      "priceChild": 4800,
+      "id": "05bc"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Jane Doe",
+      "email": "jane.doe@gmail.com",
+      "basket": [
+        {
+          "id": 0,
+          "excursion": {
+            "name": "Kyoto - Fushimi Inari Shrine",
+            "description": "Explore the iconic red torii gates leading up Mount Inari and discover ancient Japanese spirituality.",
+            "priceAdult": 5800,
+            "priceChild": 5640,
+            "id": "ae03"
+          },
+          "adults": 2,
+          "childs": 2
+        }
+      ],
+      "totalPrice": 22880,
+      "orderDate": "2025-11-11T15:11:03.227Z",
+      "id": 1
+    },
+    {
+      "name": "John Black",
+      "email": "john.black@gmail.com",
+      "basket": [
+        {
+          "id": 1,
+          "excursion": {
+            "id": "01d3",
+            "name": "Venice - Canal Boat Ride",
+            "description": "Enjoy a scenic gondola ride along the charming canals of Venice, surrounded by Renaissance beauty.",
+            "priceAdult": 1800,
+            "priceChild": 1400
+          },
+          "adults": 2,
+          "childs": 0
+        },
+        {
+          "id": 2,
+          "excursion": {
+            "name": "Reykjavik - Northern Lights Experience",
+            "description": "Witness nature’s spectacular light show in Iceland’s crystal-clear night sky.",
+            "priceAdult": 5550,
+            "priceChild": 4800,
+            "id": "05bc"
+          },
+          "adults": 2,
+          "childs": 0
+        }
+      ],
+      "totalPrice": 14700,
+      "orderDate": "2025-11-11T15:11:40.681Z",
+      "id": 2
+    },
+    {
+      "name": "Lucy Gray",
+      "email": "gray.lucy@gmail.com",
+      "basket": [
+        {
+          "id": 3,
+          "excursion": {
+            "id": "fc29",
+            "name": "New York - Central Park Tour",
+            "description": "Relax on a guided walk through the city’s green heart and learn about its cultural landmarks.",
+            "priceAdult": 3400,
+            "priceChild": 3300
+          },
+          "adults": 2,
+          "childs": 3
+        }
+      ],
+      "totalPrice": 16700,
+      "orderDate": "2025-11-11T15:12:23.008Z",
+      "id": 3
+    },
+    {
+      "name": "Tiffany Pink",
+      "email": "pink-tiffany@gmail.com",
+      "basket": [
+        {
+          "id": 4,
+          "excursion": {
+            "name": "Rio de Janeiro - Christ the Redeemer",
+            "description": "Admire the breathtaking panoramic view of Rio from the world-famous statue atop Corcovado.",
+            "priceAdult": 10000,
+            "priceChild": 10000,
+            "id": "3c1b"
+          },
+          "adults": 3,
+          "childs": 0
+        }
+      ],
+      "totalPrice": 30000,
+      "orderDate": "2025-11-11T15:13:15.365Z",
+      "id": 4
+    },
+    {
+      "name": "Jake Blue",
+      "email": "jake.blue@gmail.com",
+      "basket": [
+        {
+          "id": 5,
+          "excursion": {
+            "name": "Cairo - Great Pyramids of Giza",
+            "description": "Visit one of the Seven Wonders of the Ancient World and step into the legacy of ancient Egypt.",
+            "priceAdult": 1200,
+            "priceChild": 1000,
+            "id": "9e16"
+          },
+          "adults": 2,
+          "childs": 0
+        },
+        {
+          "id": 6,
+          "excursion": {
+            "name": "Reykjavik - Northern Lights Experience",
+            "description": "Witness nature’s spectacular light show in Iceland’s crystal-clear night sky.",
+            "priceAdult": 5550,
+            "priceChild": 4800,
+            "id": "05bc"
+          },
+          "adults": 2,
+          "childs": 0
+        },
+        {
+          "id": 7,
+          "excursion": {
+            "name": "Kyoto - Fushimi Inari Shrine",
+            "description": "Explore the iconic red torii gates leading up Mount Inari and discover ancient Japanese spirituality.",
+            "priceAdult": 5800,
+            "priceChild": 5640,
+            "id": "ae03"
+          },
+          "adults": 2,
+          "childs": 0
+        }
+      ],
+      "totalPrice": 25100,
+      "orderDate": "2025-11-11T15:14:47.213Z",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript: API oraz FETCH - client, Sandra Mstowska</title>
+</head>
+<body>
+    <h1>Let's see the world!</h1>
+    <section class="panel">
+        <ul class="panel__excursions excursions"></ul>
+            <li class="excursions__item excursions__item--prototype" style="display:none">
+                <header class="excursions__header">
+                    <h2 class="excursions__title">Ogrodzieniec</h2>
+                    <p class="excursions__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam quam laboriosam quaerat temporibus dicta vitae maxime! Nemo, nobis veritatis?</p>
+                </header>
+                <form class="excursions__form">
+                    <div class="excursions__field">
+                        <label class="excursions__field-name">
+                            Adult: 99PLN x <input class="excursions__field-input" name="adults" />
+                        </label>
+                    </div>
+                    <div class="excursions__field">
+                        <label class="excursions__field-name">
+                            Child: 50PLN x <input class="excursions__field-input" name="children" />
+                        </label>
+                    </div>
+                    <div class="excursions__field excursions__field--submit">
+                        <input 
+                            class="excursions__field-input excursions__field-input--submit" 
+                            value="Add to order"
+                            type="submit"
+                        />
+                    </div>
+                </form>
+            </li>
+        
+        <section class="panel__form">
+            <form class="panel__order order" novalidate>
+                <div class="order__total-price">
+                    Total:
+                    <span class="order__total-price-value">0PLN</span>
+                </div>
+                <div class="order__field">
+                    <label class="order__field-name">
+                        Name and surname: <input class="order__field-input" name="name" />
+                    </label>
+                </div>
+                <div class="order__field">
+                    <label class="order__field-name">
+                        Email <input class="order__field-input" name="email" />
+                    </label>
+                </div>
+                <div class="order__field order__field--submit">
+                    <input 
+                        class="order__field-input order__field-submit" 
+                        value="Place Order"
+                        type="submit"
+                    />
+                </div>
+            </form>
+            <ul class="panel__summary summary"></ul>
+                <li class="summary__item summary__item--prototype" style="display: none">
+                    <h3 class="summary__title">
+                        <span class="summary__name">Bali</span>
+                        <strong class="summary__total-price">199PLN</strong> 
+                        <a href="" class="summary__btn-remove" title="usuń">X</a>
+                    </h3>
+                    <p class="summary__prices">Adults: 1 x 99PLN, Childs: 2 x 50PLN</p>
+                </li>
+            
+        </section>
+    </section>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript: API oraz FETCH - admin, Sandra Mstowska</title>
+</head>
+<body>
+    <h1>Admin Panel</h1>
+    <section class="panel">
+        <section class="view-switcher">
+            <button class="view-btn active" data-view="excursions">Excursions</button>
+            <button class="view-btn" data-view="orders">Orders</button>
+        </section>
+
+        <section class="view active" id="viewExcursions">
+            <div class="wrapper">
+                <ul class="panel__excursions excursions"></ul>
+                    <li data-id="1" class="excursions__item excursions__item--prototype" style="display: none;">
+                        <header class="excursions__header">
+                            <h2 class="excursions__title">Ogrodzieniec</h2>
+                            <p class="excursions__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam quam laboriosam quaerat temporibus dicta vitae maxime! Nemo, nobis veritatis?</p>
+                        </header>
+                        <form class="excursions__form">
+                            <div class="excursions__field">
+                                <label class="excursions__field-name">
+                                    Adult: <strong>99</strong>PLN
+                                </label>
+                            </div>
+                            <div class="excursions__field">
+                                <label class="excursions__field-name">
+                                    Child: <strong>50</strong>PLN
+                                </label>
+                            </div>
+                            <div class="excursions__field excursions__field--submit">
+                                <input 
+                                    class="excursions__field-input excursions__field-input--update" 
+                                    value="Edit"
+                                    type="submit"
+                                />
+                                <input 
+                                    class="excursions__field-input excursions__field-input--remove" 
+                                    value="Remove"
+                                    type="submit"
+                                />
+                            </div>
+                        </form>
+                    </li>
+            
+                <form class="form" novalidate>
+                    <div class="form__row">
+                        <label class="form__label">
+                            Name:<input class="form__field" name="name" />
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label class="form__label">
+                            Description:<textarea class="form__field form__field--longtext" name="description"></textarea>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label class="form__label">
+                            Adult price:<input class="form__field" type="number" name="priceAdult" />
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label class="form__label">
+                            Child price:<input class="order__form__field" type="number" name="priceChild" />
+                        </label>
+                    </div>
+                    <div class="order__field order__field--submit">
+                        <input 
+                            class="order__field-input order__field-submit" 
+                            value="Add"
+                            type="submit"
+                        />
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="view" id="viewOrders">
+            <ul class="orders__list"></ul>
+            <li data-id="1" class="order-list__item order-list__item--prototype" style="display:  none;">
+                <header class="order-list__item--header">
+                    <h2 class="order-list__item--title">Order number:</h2>
+                    <p class="order-list__item--client">Client:</p>
+                </header>
+                <div class="order-list__item--container">
+                    <p class="order-list__item--email"></p>
+                    <p class="order-list__item--data"></p>
+                    <p class="order-list__item--sum"></p>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Adults</th>
+                            <th>Childs</th>
+                            <th>Adult Price</th>
+                            <th>Child Price</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row--prototype">
+                            <td class="table-row--index">#</td>
+                            <td class="table-row--name">name</td>
+                            <td class="table-row--adult">2</td>
+                            <td class="table-row--child">2</td>
+                            <td class="table-row--adultPrice">160zł</td>
+                            <td class="table-row--childPrice">140zł</td>
+                            <td class="table-row--sum">600zł</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </li>
+        </section>
+    </section>
+</body>
+</html>
